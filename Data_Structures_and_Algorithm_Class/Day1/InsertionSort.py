@@ -10,7 +10,7 @@ def insertionSort(sList, N):
     for i in range(1,N):
         j = i-1
         temp = sList[i]
-        while(j >= 1 and temp < sList[j]):
+        while(j >= 0 and temp < sList[j]):
             sList[j+1] = sList[j]
             j = j-1
         
